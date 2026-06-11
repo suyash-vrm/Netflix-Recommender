@@ -3,6 +3,8 @@
 A personalized movie recommendation engine built on the Netflix Prize Dataset.
 Developed as part of Cultural Council Open Projects 2026, IIT Roorkee.
 
+Streamlit App Link: https://netflix-recommender-fragz2ikqs6wefqfebnbcf.streamlit.app/
+
 ---
 
 ## What This Does
