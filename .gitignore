@@ -1,0 +1,15 @@
+# Dataset and large files
+data/
+data/*.csv
+data/*.txt
+
+# Python cache and environments
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
