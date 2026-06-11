@@ -16,6 +16,11 @@ def load_data():
     movies_path = os.path.join("data", "movie_titles.csv")
     ratings_path = os.path.join("data", "combined_data_1.txt")
     
+    # Fallback to sample dataset for Cloud Deployment
+    if not os.path.exists(movies_path) or not os.path.exists(ratings_path):
+        movies_path = os.path.join("sample_data", "sample_movie_titles.csv")
+        ratings_path = os.path.join("sample_data", "sample_combined_data.txt")
+        
     if not os.path.exists(movies_path) or not os.path.exists(ratings_path):
         return None, None
 
